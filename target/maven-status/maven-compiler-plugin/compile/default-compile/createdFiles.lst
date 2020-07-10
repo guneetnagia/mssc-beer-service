@@ -1,0 +1,6 @@
+com\guneet\msscbeerservice\web\model\BeerStyleEnum.class
+com\guneet\msscbeerservice\web\controller\BeerController.class
+com\guneet\msscbeerservice\web\model\BeerPagedList.class
+com\guneet\msscbeerservice\MsscBeerServiceApplication.class
+com\guneet\msscbeerservice\web\model\BeerDto.class
+com\guneet\msscbeerservice\web\model\BeerDto$BeerDtoBuilder.class
