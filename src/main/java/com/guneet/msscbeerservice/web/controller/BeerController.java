@@ -3,6 +3,7 @@ package com.guneet.msscbeerservice.web.controller;
 import com.guneet.msscbeerservice.web.model.BeerDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -21,7 +22,8 @@ public class BeerController {
     }
 
     @PutMapping("/{beerId}")
-    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerID){
+    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerID,@RequestBody @Validated BeerDto beerDto){
         return new ResponseEntity(HttpStatus.NO_CONTENT);
+
     }
 }

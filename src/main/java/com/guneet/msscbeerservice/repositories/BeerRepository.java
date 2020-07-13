@@ -1,7 +1,6 @@
 package com.guneet.msscbeerservice.repositories;
 
 import com.guneet.msscbeerservice.domain.Beer;
-import com.guneet.msscbeerservice.web.model.BeerDto;
 import com.guneet.msscbeerservice.web.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -9,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface BeerRepository extends JpaRepository<BeerDto, UUID> {
+public interface BeerRepository extends JpaRepository<Beer, UUID> {
 
     Page<Beer> findAllByBeerName(String beerName, Pageable pageable);
 

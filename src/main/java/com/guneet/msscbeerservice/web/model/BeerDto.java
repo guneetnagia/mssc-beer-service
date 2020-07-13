@@ -24,7 +24,7 @@ public class BeerDto {
 
     private BeerStyleEnum beerStyle;
 
-    private Long upc;
+    private String upc;
 
     private BigDecimal price;
 
