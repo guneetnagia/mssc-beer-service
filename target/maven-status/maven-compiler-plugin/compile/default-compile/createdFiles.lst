@@ -1,6 +1,14 @@
 com\guneet\msscbeerservice\web\model\BeerStyleEnum.class
+com\guneet\msscbeerservice\web\mappers\BeerMapper.class
+com\guneet\msscbeerservice\services\BeerService.class
+com\guneet\msscbeerservice\web\model\BeerDto.class
+com\guneet\msscbeerservice\domain\Beer$BeerBuilder.class
 com\guneet\msscbeerservice\web\controller\BeerController.class
+com\guneet\msscbeerservice\domain\Beer.class
+com\guneet\msscbeerservice\services\BeerServiceImpl.class
 com\guneet\msscbeerservice\web\model\BeerPagedList.class
 com\guneet\msscbeerservice\MsscBeerServiceApplication.class
-com\guneet\msscbeerservice\web\model\BeerDto.class
+com\guneet\msscbeerservice\repositories\BeerRepository.class
+com\guneet\msscbeerservice\web\mappers\BeerMapperImpl.class
+com\guneet\msscbeerservice\web\mappers\DateMapper.class
 com\guneet\msscbeerservice\web\model\BeerDto$BeerDtoBuilder.class

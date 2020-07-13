@@ -1,5 +1,10 @@
 E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\MsscBeerServiceApplication.java
+E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\services\BeerServiceImpl.java
 E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\web\model\BeerDto.java
 E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\web\controller\BeerController.java
 E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\web\model\BeerPagedList.java
+E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\repositories\BeerRepository.java
 E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\web\model\BeerStyleEnum.java
+E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\domain\Beer.java
+E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\services\BeerService.java
+E:\GitProjects\mssc-beer-project\mssc-beer-service\src\main\java\com\guneet\msscbeerservice\web\mappers\BeerMapper.java
